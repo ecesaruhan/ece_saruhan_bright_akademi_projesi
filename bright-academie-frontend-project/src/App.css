@@ -2,14 +2,34 @@
   text-align: center;
 }
 
-#header-nav{
-  background-color: #A3B763;
+#header-nav {
+  background-color: #f0d46f;
 }
 
-.nav-link{
+.nav-link {
+  color: #60443e;
+  font-weight: 600;
+}
+
+.navbar-toggler {
   color: #F3F3F3;
+  ;
 }
 
-.navbar-toggler{
-  color: #F3F3F3;;
+#footer-container {
+  background-color: #43766C;
+
 }
+
+.card {
+  background-color: #43766C;
+  color: #F3F3F3;
+  border: none;
+}
+
+#brand-logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+

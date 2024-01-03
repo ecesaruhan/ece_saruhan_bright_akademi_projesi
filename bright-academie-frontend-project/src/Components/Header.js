@@ -1,11 +1,14 @@
 import React from 'react'
 
+
 const Header = () => {
   return (
     <>
       <nav id='header-nav' className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <a className="navbar-brand text-white" href="/">Bright Dance Studio</a>
+          
+          <a href='/' className="navbar-brand text-white">
+            <img id='brand-logo' src='Images/brightdanceakademilogo.png' /></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
