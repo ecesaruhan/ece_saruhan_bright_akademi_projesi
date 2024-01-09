@@ -15,19 +15,19 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarToggler">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="btn btn-light nav-link active" aria-current="page" href="#">Ana Sayfa</a>
+                <a className="btn btn-light nav-link active" aria-current="page" href="/">Ana Sayfa</a>
               </li>
               <li className="nav-item">
-                <a className="btn btn-light nav-link" href="#">Hakkımızda</a>
+                <a className="btn btn-light nav-link" href="/about">Hakkımızda</a>
               </li>
               <li className="nav-item">
-                <a className="btn btn-light nav-link" href="#">Eğitimlerimiz</a>
+                <a className="btn btn-light nav-link" href="/trainings">Eğitimlerimiz</a>
               </li>
               <li className="nav-item">
-                <a className="btn btn-light nav-link" href="#">Eğitmenlerimiz</a>
+                <a className="btn btn-light nav-link" href="/trainers">Eğitmenlerimiz</a>
               </li>
               <li className="nav-item">
-                <a className="btn btn-light nav-link" href="#">İletişim</a>
+                <a className="btn btn-light nav-link" href="/contact">İletişim</a>
               </li>
             </ul>
           </div>

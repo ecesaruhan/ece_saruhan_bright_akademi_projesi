@@ -5,7 +5,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-      <div id='footer-container' className='container-fluid text-center fixed-bottom'>
+      <div id='footer-container' className='container-fluid text-center sticky-bottom'>
         <div className="row">
           <div className="col-sm-6 mb-3 mb-sm-0">
             <div className="card">

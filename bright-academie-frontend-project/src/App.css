@@ -33,3 +33,21 @@
   border-radius: 50%;
 }
 
+#training-card{
+  background-color: #ECE3CE;
+  color: #304D30;
+  width: 500px;
+  height: 600px;
+}
+
+#training-card-btn{
+  background-color: #304D30;
+  color: white;
+  border-color: #304D30;
+}
+
+#training-image{
+  width: 500px;
+  height: 400px;
+}
+
