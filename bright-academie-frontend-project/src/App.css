@@ -34,8 +34,8 @@
 }
 
 #training-card{
-  background-color: #ECE3CE;
-  color: #304D30;
+  background-color: #DCD7C9;
+  color: #2C3639;
   width: 500px;
   height: 600px;
 }
@@ -49,5 +49,13 @@
 #training-image{
   width: 500px;
   height: 400px;
+}
+
+#image-card{
+  background-color: #860A35;
+}
+
+#contact-page{
+  background-color: #D1E8E4;
 }
 

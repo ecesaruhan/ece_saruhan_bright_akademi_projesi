@@ -4,8 +4,9 @@ import TrainingCard from '../../Components/TrainingCard';
 const TrainingsPage = () => {
   return (
     <>
-      <h1 className='display-3 text-center m-4' style={{ color: '#304D30' }}>Eğitimlerimiz</h1>
-      <div className='container m-0 p-0 mx-auto text-center m-3'>
+      <div className='container-fluid' style={{ backgroundColor: '#113946'}}>
+        <h1 className='display-3 text-center p-4' style={{ color: '#F5E8B7' }}>Eğitimlerimiz</h1>
+      <div className='container m-0 p-0 mx-auto text-center p-3'>
         <div className='row m-0 p-0 gap-2 justify-content-center'>
           <div className='col-md-5'>
             <TrainingCard TrainingCardName={"Bale"} TrainingCardUrl={"Images/bale1.jpg"} TrainingCardDescription={"Dünyanın en köklü dansı Bale'nin saflığını, güzelliğini, hafifliğini ve zerafetini keşfedin!"} />
@@ -28,7 +29,7 @@ const TrainingsPage = () => {
 
         </div>
       </div>
-
+      </div>
     </>
   )
 }
