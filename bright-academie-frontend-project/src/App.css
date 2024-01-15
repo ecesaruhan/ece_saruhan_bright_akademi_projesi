@@ -33,29 +33,55 @@
   border-radius: 50%;
 }
 
-#training-card{
+#training-card {
   background-color: #DCD7C9;
   color: #2C3639;
   width: 500px;
   height: 600px;
 }
 
-#training-card-btn{
+#training-card-btn {
   background-color: #304D30;
   color: white;
   border-color: #304D30;
 }
 
-#training-image{
+#training-image {
   width: 500px;
   height: 400px;
 }
 
-#image-card{
+#image-card {
   background-color: #860A35;
 }
 
-#contact-page{
+#contact-page {
   background-color: #D1E8E4;
 }
 
+.slider {
+  position: relative;
+  height: 900px
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  font-size: 50px;
+  color: white;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  font-size: 50px;
+  color: white;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}

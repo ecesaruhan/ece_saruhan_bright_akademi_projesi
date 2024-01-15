@@ -8,7 +8,7 @@ const TrainingCard = ({ TrainingCardUrl, TrainingCardName, TrainingCardDescripti
                 <div className="card-body d-flex flex-column justify-content-between align-items-center">
                     <h3 className="card-title">{TrainingCardName}</h3>
                     <p className="card-text fs-5">{TrainingCardDescription}</p>
-                    <a id='training-card-btn' href={TrainingDetailsUrl} className="btn btn-primary fs-5">Detaylı Bilgi</a>
+                    <a id='training-card-btn' href="/contact" className="btn btn-primary fs-5">Detaylı Bilgi</a>
                 </div>
             </div>
         </>

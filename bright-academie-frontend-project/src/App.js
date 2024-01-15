@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './Components/Header';
-import { AppContext } from './Contexts/AppContext';
 import HomePage from './Pages/HomePage/HomePage';
 import AboutPage from './Pages/AboutPage/AboutPage';
 import TrainersPage from './Pages/TrainersPage/TrainersPage';
@@ -14,7 +13,6 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <>
-      <AppContext.Provider>
         <BrowserRouter>
           <Header />
 
@@ -29,7 +27,6 @@ function App() {
           <Footer />
 
         </BrowserRouter>
-      </AppContext.Provider>
     </>
   );
 }
