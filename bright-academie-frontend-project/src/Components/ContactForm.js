@@ -3,7 +3,7 @@ import React from 'react'
 const ContactForm = () => {
   return (
     <>
-      <div className='container px-3 py-4 m-3 border border-success mx-auto'>
+      <div className='container px-3 py-4 m-3 mx-auto'>
         <h2 className='text-center'>Başvuru Formu</h2>
         <form className="row g-4">
           <div className="col-md-6">
@@ -23,7 +23,7 @@ const ContactForm = () => {
             <label for="inputEmail4" className="form-label">Telefon Numarası</label>
             <input type="email" className="form-control" id="inputEmail4" />
           </div>
-          <div className="col-12">
+          <div className="col-md-12">
             <label for="inputAddress" className="form-label">Adres</label>
             <input type="text" className="form-control" id="inputAddress" />
           </div>
@@ -43,24 +43,24 @@ const ContactForm = () => {
             <label for="inputZip" className="form-label">Posta Kodu</label>
             <input type="text" className="form-control" id="inputZip" />
           </div>
-          <div className="col-12">
+          <div className="col-md-12">
             <div className="form-check">
               <input className="form-check-input" type="checkbox" id="gridCheck" />
-              <label className="form-check-label" for="gridCheck">
+              <label className="form-check-label float-start" for="gridCheck">
                 Benimle telefon yoluyla iletişime geçin.
               </label>
             </div>
           </div>
-          <div className="col-12">
+          <div className="col-md-12">
             <div className="form-check">
               <input className="form-check-input" type="checkbox" id="gridCheck" />
-              <label className="form-check-label" for="gridCheck">
+              <label className="form-check-label float-start" for="gridCheck">
                 Benimle mail yoluyla iletişime geçin.
               </label>
             </div>
           </div>
-          <div className="col-12">
-            <button type="submit" className="btn btn-success">Başvurumu Gönder</button>
+          <div className="col-md-12">
+            <button type="submit" className="btn btn-success float-start">Başvurumu Gönder</button>
           </div>
         </form>
       </div>

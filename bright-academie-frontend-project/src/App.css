@@ -55,10 +55,6 @@
   background-color: #860A35;
 }
 
-#contact-page {
-  background-color: #D1E8E4;
-}
-
 .slider {
   position: relative;
   height: 900px
@@ -73,6 +69,7 @@
   z-index: 10;
   cursor: pointer;
   user-select: none;
+  opacity: 0.5;
 }
 
 .left-arrow {
@@ -84,4 +81,5 @@
   z-index: 10;
   cursor: pointer;
   user-select: none;
+  opacity: 0.5;
 }

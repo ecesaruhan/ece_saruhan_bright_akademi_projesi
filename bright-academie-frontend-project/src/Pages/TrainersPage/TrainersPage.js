@@ -3,7 +3,7 @@ import TrainerCard from '../../Components/TrainerCard';
 
 const TrainersPage = () => {
   return (
-    <div className='container-fluid' style={{ backgroundColor: '#3F4E4F' }}>
+    <div className='container-fluid' style={{ background: 'url(Images/trainerbg.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '100vh' }}>
       <h1 className='text-center display-3 text-white pt-4'>Eğitmenlerimiz</h1>
       <div className='container m-0 p-0 mx-auto text-center py-3'>
         <div className='row m-0 p-0 justify-content-around'>
@@ -32,7 +32,6 @@ const TrainersPage = () => {
             <TrainerCard TrainerCardName={"Lorem ipsum"} TrainerCardDescription={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."} TrainerCardUrl={"Images/Trainer9.jpg"} />
           </div>
         </div>
-
       </div>
     </div>
   )

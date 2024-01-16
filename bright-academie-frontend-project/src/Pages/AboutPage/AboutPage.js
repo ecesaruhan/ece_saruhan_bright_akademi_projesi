@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutPage = () => {
   return (
-    <div className='container-fluid' style={{ backgroundColor: '#60443e' }}>
+    <div className='container-fluid' style={{ background: 'url(Images/about.jpg)', backgroundSize:'cover', backgroundPosition:'center', minHeight:'100vh'}}>
       <h1 className='text-center p-4 fw-bold' style={{ color: '#A9B388' }}>Hakkımızda</h1>
       <div className='container'>
         <div className='text-dark fs-5' style={{ height: '100vh' }}>
